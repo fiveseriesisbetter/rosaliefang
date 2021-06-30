@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {margin: 0px}
+h1 {text-align: center; font-size: 500%; padding-top: 35vh}
+h2 {text-align: center; font-size: 300%; margin-top: 1em}
+h3 {margin-left: 5%; margin-bottom: 0.8em; margin-top: 1em; font-family: Georgia, 'Times New Roman', Times, serif; text-decoration: underline;}
+h4 {text-align: center; margin: 15% 15% ; font-size: 125%; margin-top: 2em; font-family: Georgia, 'Times New Roman', Times, serif;}
+p {margin-left: 10%; line-height: 1.75em; font-family: Georgia, 'Times New Roman', Times, serif;}
+a {color: beige;}
+
+.side-bar {
+  margin: 0px;
+  width: 20%;
+  float: left;
+  padding-top: 2em;
+  background-color: #040116e9;
+  height: 100vh;
+  position: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.side-bar-elements {
+  font: 140% "Futura";
+  width: 100%;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 1.2em;
+  color: beige;
 }
+
+.headshot {
+  border-radius: 50%;
+  display: block;
+  width: 40%;
+  margin-bottom: 4em;
+}
+
+.home, .resume, .about-me, .bottom-bar {
+  width: 80%;
+  float: right;
+}
+
+.home {
+  height: 100vh;
+  margin: 0px;
+  background-color: #EEF9FF;
+  scroll-behavior: smooth;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me {
+  background-color: #EEF9FF;
+}
+
+.resume {
+  margin: 0px;
+  background-color: rgb(247, 247, 240);
+  padding-top: 4em;
+  padding-bottom: 6em;
+}
+
+.bottom-bar {
+  background-color: #0f0f11ca;
+  height: 30vh;
+  color: beige;
+}
+
+.name {
+  font-size: 125%;
+}
+
+.major {
+  text-decoration: underline;
+}
+  
